@@ -1,12 +1,12 @@
-import json from 'rollup-plugin-json'
-import resolve from 'rollup-plugin-node-resolve'
-import commonjs from 'rollup-plugin-commonjs'
-import babel from 'rollup-plugin-babel'
-import postcss from 'rollup-plugin-postcss'
-import server from 'rollup-plugin-server'
-import livereload from 'rollup-plugin-livereload'
-import html from '@rollup/plugin-html'
-import typeScript from 'rollup-plugin-typescript'
+import json from 'rollup-plugin-json';
+import resolve from 'rollup-plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
+import babel from 'rollup-plugin-babel';
+import postcss from 'rollup-plugin-postcss';
+import server from 'rollup-plugin-server';
+import livereload from 'rollup-plugin-livereload';
+import html from '@rollup/plugin-html';
+import typeScript from 'rollup-plugin-typescript';
 
 export default {
   input: 'src/main.js',
@@ -48,4 +48,4 @@ export default {
     livereload()
   ],
   external: [/node_modules\/(?=(lodash)\/).*/]
-}
+};

@@ -1,50 +1,50 @@
 {
-	"success": "proident tempor cupidatat nulla nostrud",
-	"data": {
-		"invoice_form_info": {
-			"invoice_form_id": "132434",
-			"invoice_attribute": "NORMAL",
-			"invoice_type": "PAPER",
-			"invoice_form_status": "TO_HANDLE",
-			"audit_user": "yangjie",
-			"apply_user": "wangjie",
-			"invoice_color": "BLUE",
-			"order_id": "11",
-			"invoice_apply_time": "2022-04-01 13:23:32",
-			"item_num": "2",
-			"item_price": "12.00",
-			"tax": "0.5",
-			"attachment_file": {
-				"attachment_file_image_id": "457465",
-				"attachment_file_remark": "veniam do",
-				"attachment_file_image_url": "https://pic3.zhimg.com/50/v2-df9383e351173c90d96ea1a29f2cb346_400x224.jpg"
-			},
-			"ack_remark": "备注",
-			"invoice_amount": "3456.00",
-			"sku_name": "华为手机等",
-			"sku_id": "12435465465",
-			"phone": "15927309946",
-			"customer_type": "COMPANY",
-			"customer_name": "智者四海",
-			"tax_num": "35456565",
-			"company_address": "北京市学清路 768 产业园区",
-			"company_tel": "010-3545466",
-			"bank": "中国银行",
-			"bank_num": "6217568700034574523"
-		},
-		"invoice_info": {
-			"invoice_no": "cupidatat dolor",
-			"invoice_num": "incididunt officia"
-		},
-		"business_info": {
-			"business_line": "大社区电商售卖",
-			"business_type": "自营电商",
-			"subject_name": "知乎",
-			"subject_no": "zhihu",
-			"invoice_content": "*信息技术服务部*平台服务",
-			"glssflbm": "123456",
-			"tax_item": "信息技术服务"
-		}
-	},
-	"error": {}
+  "success": "proident tempor cupidatat nulla nostrud",
+  "data": {
+    "invoice_form_info": {
+      "invoice_form_id": "132434",
+      "invoice_attribute": "NORMAL",
+      "invoice_type": "PAPER",
+      "invoice_form_status": "TO_HANDLE",
+      "audit_user": "yangjie",
+      "apply_user": "wangjie",
+      "invoice_color": "BLUE",
+      "order_id": "11",
+      "invoice_apply_time": "2022-04-01 13:23:32",
+      "item_num": "2",
+      "item_price": "12.00",
+      "tax": "0.5",
+      "attachment_file": {
+        "attachment_file_image_id": "457465",
+        "attachment_file_remark": "veniam do",
+        "attachment_file_image_url": "https://pic3.zhimg.com/50/v2-df9383e351173c90d96ea1a29f2cb346_400x224.jpg"
+      },
+      "ack_remark": "备注",
+      "invoice_amount": "3456.00",
+      "sku_name": "华为手机等",
+      "sku_id": "12435465465",
+      "phone": "15927309946",
+      "customer_type": "COMPANY",
+      "customer_name": "智者四海",
+      "tax_num": "35456565",
+      "company_address": "北京市学清路 768 产业园区",
+      "company_tel": "010-3545466",
+      "bank": "中国银行",
+      "bank_num": "6217568700034574523"
+    },
+    "invoice_info": {
+      "invoice_no": "cupidatat dolor",
+      "invoice_num": "incididunt officia"
+    },
+    "business_info": {
+      "business_line": "大社区电商售卖",
+      "business_type": "自营电商",
+      "subject_name": "知乎",
+      "subject_no": "zhihu",
+      "invoice_content": "*信息技术服务部*平台服务",
+      "glssflbm": "123456",
+      "tax_item": "信息技术服务"
+    }
+  },
+  "error": {}
 }

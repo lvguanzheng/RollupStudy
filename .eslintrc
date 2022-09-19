@@ -1,0 +1,27 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": { "es6": true },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "console": "writable"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-dupe-keys": "error", // 禁止对象字面量中出现重复的key
+    "no-duplicate-case": "error", // 禁止出现重复的case标签
+    "no-empty": ["error", { "allowEmptyCatch": true }], // 禁止出现空语句块，catch可以
+    "no-ex-assign": "error", // 禁止对catch子句的参数重新赋值
+    "no-extra-boolean-cast": "error", // 禁止不必要的布尔转换
+    "curly": "error", // 强制所有控制语句使用一致的括号风格
+    "no-console": "error"
+  }
+}
