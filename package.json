@@ -18,6 +18,9 @@
     }
   },
   "lint-staged": {
+    "*.{eslintrc,prettierrc}": [
+      "git add"
+    ],
     "*.js": [
       "yarn lint",
       "yarn prettier",
