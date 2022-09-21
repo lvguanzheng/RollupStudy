@@ -18,7 +18,7 @@
     }
   },
   "lint-staged": {
-    "*.{eslintrc,prettierrc}": [
+    "*.{eslintrc,prettierrc,babelrc}": [
       "git add"
     ],
     "*.js": [
@@ -38,12 +38,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.1",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.19.1",
     "@babel/preset-typescript": "^7.18.6",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@rollup/plugin-html": "^0.2.4",
-    "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-latest": "^6.24.1",
     "commitlint": "^17.1.2",
     "eslint": "^8.23.1",

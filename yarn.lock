@@ -786,6 +786,14 @@
     "@babel/helper-create-regexp-features-plugin" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
 
+"@babel/polyfill@^7.12.1":
+  version "7.12.1"
+  resolved "http://npm.in.zhihu.com/@babel%2fpolyfill/-/polyfill-7.12.1.tgz#1f2d6371d1261bbd961f3c5d5909150e12d0bd96"
+  integrity sha1-Hy1jcdEmG72WHzxdWQkVDhLQvZY=
+  dependencies:
+    core-js "^2.6.5"
+    regenerator-runtime "^0.13.4"
+
 "@babel/preset-env@^7.19.1":
   version "7.19.1"
   resolved "http://npm.in.zhihu.com/@babel%2fpreset-env/-/preset-env-7.19.1.tgz#9f04c916f9c0205a48ebe5cc1be7768eb1983f67"
@@ -1556,13 +1564,6 @@ babel-plugin-dynamic-import-node@^2.3.3:
   dependencies:
     object.assign "^4.1.0"
 
-babel-plugin-external-helpers@^6.22.0:
-  version "6.22.0"
-  resolved "http://npm.in.zhihu.com/babel-plugin-external-helpers/-/babel-plugin-external-helpers-6.22.0.tgz#2285f48b02bd5dede85175caf8c62e86adccefa1"
-  integrity sha1-IoX0iwK9Xe3oUXXK+MYuhq3M76E=
-  dependencies:
-    babel-runtime "^6.22.0"
-
 babel-plugin-polyfill-corejs2@^0.3.3:
   version "0.3.3"
   resolved "http://npm.in.zhihu.com/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.3.3.tgz#5d1bd3836d0a19e1b84bbf2d9640ccb6f951c122"
@@ -2225,7 +2226,7 @@ core-js-compat@^3.25.1:
   dependencies:
     browserslist "^4.21.3"
 
-core-js@^2.4.0:
+core-js@^2.4.0, core-js@^2.6.5:
   version "2.6.12"
   resolved "http://npm.in.zhihu.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha1-2TM9+nsGXjR8xWgiGdb2kIWcwuw=
